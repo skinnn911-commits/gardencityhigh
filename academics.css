@@ -1,0 +1,128 @@
+.academic-hero {
+    background-color: #7ec7ca5e;
+    padding: 80px 10%;
+    text-align: center;
+    border-bottom: 2px solid var(--leaf-green);
+}
+
+.academic-hero h2 {
+    color: var(--dark-green);
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.curriculum-section {
+    padding: 80px 10%;
+    background-color: white;
+    text-align: center; 
+}
+
+.curriculum-section h3 {
+    color: var(--dark-green);
+    font-size: 2.2rem;
+    border-bottom: 3px solid var(--garden-yellow);
+    display: inline-block; 
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.intro-text {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 1.1rem;
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid var(--dark-green);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--dark-green);
+    color: var(--garden-yellow);
+    padding: 22px;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    border-bottom: 3px solid var(--garden-yellow);
+    text-align: center; 
+}
+
+td {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+tr:nth-child(even) { background-color: #fcfdfc; }
+
+.note {
+    font-style: italic;
+    font-size: 1rem;
+    color: #444;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+.focus-section {
+    padding: 80px 10%;
+    background-color: var(--dark-green); 
+    color: white;
+    text-align: center;
+}
+
+.focus-section h3 {
+    color: var(--garden-yellow);
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.focus-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    max-width: 900px; 
+    margin: 0 auto;
+    border: 2px solid var(--garden-yellow);
+}
+
+.focus-item {
+    padding: 50px 40px;
+    background-color: rgba(255, 255, 255, 0.05); 
+    border: 1px solid rgba(228, 197, 22, 0.2); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.focus-item h4 {
+    color: var(--garden-yellow);
+    margin-top: 0;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.focus-item p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+@media (max-width: 700px) {
+    .focus-grid {
+        grid-template-columns: 1fr;
+    }
+}

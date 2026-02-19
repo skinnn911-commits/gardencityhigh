@@ -1,0 +1,124 @@
+.financing-hero {
+    background-color: #7ec7ca5e;
+    padding: 80px 10%;
+    text-align: center;
+    border-bottom: 2px solid var(--leaf-green);
+}
+
+.financing-hero h2 {
+    color: var(--dark-green);
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.fees-section {
+    padding: 80px 10%;
+    background-color: white;
+    text-align: center;
+}
+
+.fees-section h3 {
+    color: var(--dark-green);
+    font-size: 2.2rem;
+    border-bottom: 3px solid var(--garden-yellow);
+    display: inline-block;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.intro-text {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.table-container {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid var(--dark-green);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--dark-green);
+    color: var(--garden-yellow);
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+tr:nth-child(even) { background-color: #fcfdfc; }
+
+.note {
+    margin-top: 20px;
+    font-style: italic;
+    color: var(--leaf-green);
+    font-weight: bold;
+}
+
+.payment-section {
+    padding: 60px 10%;
+    background-color: var(--dark-green);
+    color: white;
+    text-align: center;
+}
+
+.section-title h3 {
+    color: var(--garden-yellow);
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.payment-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid var(--garden-yellow);
+}
+
+.payment-card {
+    padding: 40px;
+    border: 1px solid rgba(228, 197, 22, 0.3);
+}
+
+.payment-card h4 {
+    color: var(--garden-yellow);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.support-info {
+    padding: 60px 10%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.support-info h3 {
+    color: var(--dark-green);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.support-info p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .payment-grid {
+        grid-template-columns: 1fr;
+    }
+}

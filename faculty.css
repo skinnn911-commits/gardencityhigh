@@ -1,0 +1,156 @@
+.faculty-hero {
+    background-color: #7ec7ca5e;
+    padding: 80px 10%;
+    text-align: center;
+    border-bottom: 2px solid var(--leaf-green);
+}
+
+.faculty-hero h2 {
+    color: var(--dark-green);
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.staff-section {
+    padding: 80px 10%;
+    background-color: white;
+}
+
+.light-bg {
+    background-color: var(--bg-light);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h3 {
+    color: var(--dark-green);
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid var(--garden-yellow);
+    display: inline-block;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.admin-grid {
+    grid-template-columns: repeat(2, 350px);
+    justify-content: center;
+}
+
+.profile-card {
+    background: white;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.profile-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-bottom: 4px solid var(--garden-yellow);
+    filter: grayscale(20%);
+}
+
+.profile-info {
+    padding: 25px;
+}
+
+.profile-info h4 {
+    color: var(--dark-green);
+    margin: 0 0 5px 0;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.role {
+    color: var(--leaf-green);
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.bio {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.reg-section {
+    background-color: var(--dark-green);
+    color: white;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.reg-section h3 {
+    color: var(--garden-yellow);
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.reg-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 40px;
+    background-color: var(--garden-yellow);
+    color: var(--dark-green);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid var(--garden-yellow);
+    transition: 0.3s;
+}
+
+.reg-button:hover {
+    background-color: transparent;
+    color: var(--garden-yellow);
+}
+
+.mascot-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(232, 197, 22, 0.1);
+    border-radius: 10px;
+}
+
+.mascot-costume {
+    flex: 0 0 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid var(--garden-yellow);
+}
+
+.mascot-info {
+    flex: 1;
+}
+
+.mascot-info p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    .admin-grid {
+        grid-template-columns: 1fr;
+    }
+}

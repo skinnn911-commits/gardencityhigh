@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Garden City High School</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-link">
+                <div class="logo-area">
+                    <img src="logo.png" alt="GCHS Logo" class="logo">
+                    <div class="title-text">
+                        <h1> JDZS Garden City High School</h1>
+                        <p class="slogan">"Nurturing Minds, Growing Futures & Communities"</p>
+                    </div>
+                </div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html">Admission</a></li>
+                    <li><a href="financing.html">Financing</a></li>
+                    <li><a href="student-life.html">Student Life</a></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                </ul>
+                <img src="mascot image.jpeg" alt="GCHS Mascot" class="mascot">
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-container">
+        <div class="mySlides fade">
+            <img src="graduation.png" style="width:100%">
+            <div class="hero-text-overlay">
+                <h2 class="fade-in-text">Excellence in Education</h2>
+                <p class="fade-in-text">Founded in Belmopan to prepare students for a changing world.</p>
+                <a href="about.html" class="view-btn">View About Us</a>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="HODmembers.png" style="width:100%">
+            <div class="hero-text-overlay">
+                <h2 class="fade-in-text">Academic Foundation</h2>
+                <p class="fade-in-text">Explore our core curriculum and specialized subject areas.</p>
+                <a href="academics.html" class="view-btn">View Academics</a>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="students.jpeg" style="width:100%">
+            <div class="hero-text-overlay">
+                <h2 class="fade-in-text">Be Part of Our Community</h2>
+                <p class="fade-in-text">Join our diverse and inclusive school community where every student is valued.</p>
+                <a href="admissions.html" class="view-btn">View Admissions</a>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="scholarships.png" style="width:100%">
+            <div class="hero-text-overlay">
+                <h2 class="fade-in-text">Financial Support</h2>
+                <p class="fade-in-text">Learn about our financing options and scholarship programs.</p>
+                <a href="financing.html" class="view-btn">View Financing</a>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="clubs.jpeg" style="width:100%">
+            <div class="hero-text-overlay">
+                <h2 class="fade-in-text">Student Life & Clubs</h2>
+                <p class="fade-in-text">From Science Club to Sports – grow beyond the classroom.</p>
+                <a href="student-life.html" class="view-btn">View Student Life</a>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="staff.png" style="width:100%">
+            <div class="hero-text-overlay">
+                <h2 class="fade-in-text">Our Faculty</h2>
+                <p class="fade-in-text">Meet our dedicated and experienced teaching staff.</p>
+                <a href="faculty.html" class="view-btn">View Faculty</a>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+
+    <main class="content-wrapper">
+        <section class="intro">
+            <h2>Welcome to Garden City High School</h2>
+            <p>Located at <strong>#586 George Price Boulevard, Belmopan</strong>, we provide a safe and supportive learning environment. We are now registering students for the upcoming school year!</p>
+        </section>
+
+        <section class="promo-section">
+            <div class="promo-banner">
+                <h3>Early Registration Promotion</h3>
+                <p>Register before <strong>August 31st</strong> and receive a Free School ID and discounted activity fees!</p>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h3>First Form Core Subjects</h3>
+            <table>
+                <tr>
+                    <th>Subject Area</th>
+                    <th>Core Subjects</th>
+                </tr>
+                <tr>
+                    <td>Languages</td>
+                    <td>English, Spanish</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>Mathematics</td>
+                </tr>
+                <tr>
+                    <td>Sciences</td>
+                    <td>Science</td>
+                </tr>
+            </table>
+            <p><small>*Only core subjects are taught at this level to ensure literacy and numeracy.</small></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <p><strong>Garden City High School</strong></p>
+                <p>#586 George Price Boulevard, Belmopan, Belize</p>
+                <p>Telephone: (501) 222-4567</p>
+                <p><em>"Nurturing Minds, Growing Futures & Communities"</em></p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Important Links</h4>
+                <ul>
+                    <li><a href="https://www.moecst.gov.bz" target="_blank">Belize Ministry of Education</a></li>
+                    <li><a href="mailto:gardencityhighschool@gmail.com">Email Administrative Secretary</a></li>
+                    <li><a href="students%20FILLABLE%20FORM.docx" download="STUDENTS FILLABLE FORM.docx">Registration Form</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function plusSlides(n) {
+            slideIndex += n;
+            manualShowSlides(slideIndex);
+        }
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 5000); 
+        }
+
+        function manualShowSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slides[slideIndex-1].style.display = "block";  
+        }
+    </script>
+</body>
+</html>
